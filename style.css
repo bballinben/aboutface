@@ -1,0 +1,146 @@
+/*navbar styling
+gold-#ffbb33
+purple-#8e44ad
+silver-#bdc3c7*/
+
+  .navbar .navbar-brand{
+    padding-left: 0em;
+    color: #8e44ad;
+    border-bottom: #ffbb33 3px solid;
+  }
+  .navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    color: #8e44ad;
+  }
+
+  .navbar .nav-link:hover {
+    color: #95a5a6;
+
+  }
+
+
+.navbar .nav-item.active{
+    font-weight: bold;
+  }
+
+.navbar .navbar-toggler{
+  color: red;
+}
+
+/*end of navbar styling*/
+
+/*start of footer styling*/
+.footer-content{
+  color: #7f8c8d;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/*end of footer styling*/
+/*carousel styling starts*/
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1{
+  background:url('img/fillerbg.png');
+  background-size: cover;
+}
+/*Home contetn*/
+#home-icons .fa{
+  font-size: 5em;
+  padding-top: 1em;
+  padding-bottom: 25px;
+  color: #8e44ad;
+}
+
+#home-icons .subtitle{
+  color: #8e44ad;
+  padding-bottom: 10px;
+}
+
+#home-icons h2{
+  font-style: italic;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: #bdc3c7;
+}
+
+#home-icons #emergency{
+  color: #8e44ad;
+  padding-bottom: 20px;
+  border-bottom: #ffbb33 3px solid;
+}
+
+#emergencyinfo{
+  color: #2c3e50;
+}
+
+/*other page titles*/
+.pagetitle .jumbotron {
+  background-color: #8e44ad;
+  color: white;
+}
+
+/*about page*/
+#staff .img-fluid {
+  border: #ffbb33 10px solid;
+
+}
+.about-img{
+  border: #ffbb33 10px solid;
+  margin-top: -65px;
+}
+.abouttitle {
+  color: #8e44ad;
+  padding: 10px;
+}
+
+/*contact page*/
+#smcontact{
+  font-size: 2em;
+  padding: 10px;
+}
+
+#smcontact .fa{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*program pages styling*/
+#programtitles{
+  color: #8e44ad;
+  padding-top: 10px;
+  padding-bottom: 1em;
+}
+
+#programsubtitle{
+  color: #8e44ad;
+  padding: 20px;
+}
+
+#servicelist {
+  padding-bottom: 20px;
+}
+
+#recourcelist {
+  padding-bottom: 20px;
+}
+/*programs navigation styling*/
+#home-tab {
+  color: #2c3e50;
+}
+#profile-tab {
+color: #2c3e50;
+}
+#messages-tab {
+  color: #2c3e50;
+}
+
+/*dontate styling*/
+#donatecontent {
+  
+}
